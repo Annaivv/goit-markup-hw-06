@@ -415,10 +415,34 @@ body {
 }
 
 .form-checkbox {
+  margin: 0 auto;
   margin-bottom: 30px;
+  position: relative;
+
+  text-align: center;
+}
+
+.checkbox-icon {
+  position: absolute;
+  top: 0;
+  left: 12px;
+}
+
+.form-checkbox:focus-within .checkbox-icon {
+  fill: transparent;
+  background-color: var(--accent-color);
+  background-image: url(../images/icon-check.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 2px;
+}
+
+.policy-text {
+  padding-left: 25px;
 }
 
 .policy-link {
+  margin-right: 8.38px;
   color: var(--accent-color);
 }
 
