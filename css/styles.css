@@ -766,8 +766,13 @@ body {
 }
 
 .subscribe-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   width: 200px;
   height: 50px;
+  padding: 10px 28px;
 
   background-color: var(--accent-color);
   color: #ffffff;
@@ -776,20 +781,16 @@ body {
   border-radius: 4px;
 }
 
-.subscribe-content {
-  display: flex;
-  justify-content: center;
+.subscribe-text {
+  display: inline-flex;
   align-items: center;
 
-  padding: 10px 28px;
-}
-
-.subscribe-text {
   margin-right: 10px;
 
   font-weight: 700;
   line-height: 1.88;
   letter-spacing: 0.06em;
+  text-align: center;
 }
 
 /* Portfolio */
